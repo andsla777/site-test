@@ -84,3 +84,21 @@ body{
     color:seashell;
     
 }
+
+
+
+
+.descricao-textos{
+    font-weight: 100;
+    font-size: 28px;
+    
+    color:rebeccapurple;
+    
+}
+
+.container-descricao{
+    margin: 10%;
+}
+.terceairo-imagem{
+    width: 100%;
+}
