@@ -73,7 +73,7 @@ body{
 .descricao-titulo{
     font-weight: 300;
     font-size: 38px;
-    color: rebeccapurple;
+    color: seashell;
     margin-bottom: 0.1em;
 }
 
@@ -85,20 +85,54 @@ body{
     
 }
 
-
+.secundario-container{
+    align-items: center;
+    
+}
 
 
 .descricao-textos{
+    margin-bottom: 20%;
     font-weight: 100;
-    font-size: 28px;
+    font-size: 38px;
     
-    color:rebeccapurple;
+    color:seashell;
     
 }
 
 .container-descricao{
-    margin: 10%;
+    margin: 20%;
+    
 }
-.terceairo-imagem{
-    width: 100%;
+.terceario-imagem{
+    width: 75%;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    justify-content: right;
+}
+
+.container-botao2{
+   
+    background-color: var(--cor-do-botao);
+    border-radius: 20px;
+    padding: 15%;
+    color:var(--cor-principal);
+    display: block;
+    margin-top: 30%;
+    text-decoration: none;
+
+}
+
+.dispositivos-lista{
+display: flex;
+justify-content: center;
+list-style-type: none;
+}
+.dispositivos{
+    text-align: center;
+
+}
+
+.lista-item{
+    color: var(--cor-principal);
 }
